@@ -16,13 +16,15 @@ BTCUSD=X |445.00    |+0.23%
 
 ### Installation
 
-mq requires the Go Tools (v1.6+). Instructions are [here](https://golang.org/doc/install) for installation.
+mq requires the Go Tools (v1.6+ tested, but others are probably fine). Instructions are [here](https://golang.org/doc/install) for installation.
+
+`make` builds the binary and `make install` places it on your path.
 
 ```sh
+$ git clone git@github.com:zallarak/mq.git
+$ cd mq
 $ make && make install
 ```
-
-Make builds the binary and make install places it on your path.
 
 ### Usage
 
